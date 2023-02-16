@@ -125,12 +125,6 @@ ul.menu a:hover{
     border-radius: 10px;
 }
 
-.modal iframe{
-    border-width: 0;
-    width: 640px;
-    height: 360px;
-}
-
 .modal.aberto{
     opacity: 1;
     visibility: visible;
