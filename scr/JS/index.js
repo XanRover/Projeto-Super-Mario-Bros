@@ -4,6 +4,8 @@ const video = document.getElementById("video");
 const botaoFecharModal = document.querySelector(".fechar-modal");
 const linkDoVideo = "https://www.youtube.com/embed/Cb4WV4aXBpk";
 
+
+
 function alternaModal(){
     modal.classList.toggle("aberto");
 }
@@ -11,7 +13,7 @@ function alternaModal(){
 // ABRIR MODAL
 botaoTrailer.addEventListener("click", () => {    
     alternaModal();
-    modal.classList.setAttribute("scr", "https://www.youtube.com/embed/Cb4WV4aXBpk");
+    video.setAttribute("scr", linkDoVideo);
 });
 
 //  FECHAR MODAL
