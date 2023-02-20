@@ -4,23 +4,18 @@ const video = document.getElementById("video");
 const botaoFecharModal = document.querySelector(".fechar-modal");
 const linkDoVideo = "https://www.youtube.com/embed/Cb4WV4aXBpk";
 
-
-
-function alternaModal(){
+function alternaModal() {
     modal.classList.toggle("aberto");
 }
 
 // ABRIR MODAL
-botaoTrailer.addEventListener("click", () => {    
+botaoTrailer.addEventListener("click", () => {
     alternaModal();
-    video.setAttribute("scr", linkDoVideo);
+    video.setAttribute("src", linkDoVideo);
 });
 
 //  FECHAR MODAL
-
-botaoFecharModal.addEventListener("click", () => {    
+botaoFecharModal.addEventListener("click", () => {
     alternaModal();
-    video.setAttribute("src","");
+    video.setAttribute("src", "");
 });
-
-
