@@ -10,4 +10,4 @@ Este projeto foi desenvolvido como parte de um exercício prático para criar um
 - CSS (Bootstrap)
 - JavaScript
 
-Para mais detalhes, acesse o [repositório deste projeto](link-do-repositorio).
+Acesse a página HTML aqui: https://xanrover.github.io/Projeto-Super-Mario-Bros/ 
